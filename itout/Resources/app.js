@@ -18,8 +18,20 @@ var tab1 = Titanium.UI.createTab({
     window:win1
 });
 
+<<<<<<< HEAD
 
 
+=======
+var label1 = Titanium.UI.createLabel({
+	color:'#999',
+	text:'I am Window 1',
+	font:{fontSize:20,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+win1.add(label1);
+>>>>>>> b919118b634848f59f24bf4b376ae4f3df79898a
 
 //
 // create controls tab and root window
@@ -29,8 +41,13 @@ var tab1 = Titanium.UI.createTab({
 //
 // create table view data object
 var data = [
+<<<<<<< HEAD
 	{title:'Favourites', hasChild:true, test:'/favourites/main.js'},
 	{title:'On Tonight', hasChild:true, test:'/ontonight/main.js'},
+=======
+	{title:'Favourites', hasChild:true, test:'../examples/slider.js'},
+	{title:'On Tonight', hasChild:true, test:'../examples/switch.js'},
+>>>>>>> b919118b634848f59f24bf4b376ae4f3df79898a
 
 ];
 
